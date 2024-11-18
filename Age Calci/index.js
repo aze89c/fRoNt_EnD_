@@ -1,5 +1,5 @@
 const btnEl=document.getElementById("btn");
-const birthdayE1=document.getElementById("birthday");
+const birthdayEl=document.getElementById("birthday");
 const resultEl=document.getElementById("result");
 
 function calculateAge(){
