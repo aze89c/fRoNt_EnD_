@@ -1,0 +1,72 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(154, 139, 139);
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.dice{
+    font-size: 7rem;
+    margin: 5px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.roll-animation{
+    animation-name: roll;
+}
+
+@keyframes roll{
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    100%{
+        transform: rotateX(840deg) rotateY(840deg);
+    }
+}
+
+
+button{
+    background-color: #38878e;
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+button:hover{
+    background-color: #00eaff;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+li{
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: rgb(96, 96, 90);
+    border-radius: 1rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span{
+    font-size: 3rem;
+    margin-right: 1rem;
+}
