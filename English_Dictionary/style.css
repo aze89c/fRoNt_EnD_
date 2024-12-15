@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(209, 173, 27);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgba(146, 140, 19, 0.3);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px rgba(13, 12, 12, 0.3);
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.heading{
+    font-size: 28px;
+}
+
+.input{
+    height: 53px;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 16px;
+    padding: 0 42px;
+    border-radius: 7px;
+}
+
+.meaning-container{
+    display: none;
+}
